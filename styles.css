@@ -23,10 +23,16 @@ h1 {
     border: 7px solid lightcoral;
 }
 
+.flexing {
+    display: flex;
+    flex: 1;
+}
+
 .homeimage {
-    display:inline-block;
+    display: inline-block;
     width: 400px;
     height: auto;
+    flex: 1;
 }
 
 
@@ -36,15 +42,16 @@ a {
 }
 
 .list {
-    display: inline-block;
+    display:inline-block;
     margin: 50px;
     border-left: 7px solid lightcoral;
     padding: 12px;
+    flex: 1;
 }
 
 .recipeimage {
     display: block;
-    margin: 10px auto;
+    margin: 5px auto;
     width: 575px;
     height: auto;
     padding-bottom: 6px;
@@ -53,6 +60,7 @@ a {
 .section {
     border-bottom: 6px solid lightcoral;
 }
+
 
 
 
